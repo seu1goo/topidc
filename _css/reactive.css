@@ -1,0 +1,3172 @@
+@media screen and (min-width: 1025px) and (max-width: 1340px) {
+  /* common */
+  .inner {
+    width: 95%;
+  }
+
+  /* header */
+  header nav .gnb > li > a {
+    font-size: 20px;
+  }
+
+  /* servicing */
+  #servicing .textArea {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 60%;
+  }
+
+  #servicing .swiper-button-prev {
+    right: 14%;
+  }
+
+  #servicing .swiper-button-next {
+    right: 8%;
+  }
+
+  /* solution */
+  #solution ul li a p {
+    font-size: 14px;
+  }
+
+  /* counseling */
+  #counseling .clientChoice {
+    width: 20%;
+  }
+
+  #counseling .clientCompany {
+    width: 35%;
+  }
+
+  #counseling .clientCompany .cliList img {
+    margin: 10px 10px -10px 0;
+  }
+
+  #counseling .clientCompany .cliList input[type="text"] {
+    width: 87%;
+    padding: 14.5px;
+  }
+
+  #counseling .clientCounsel {
+    width: 36.7%;
+  }
+
+  /* partner */
+  #partner ul li.partLenovo {
+    background-size: 70%;
+  }
+
+  #partner ul li.partDell {
+    background-size: 60%;
+  }
+
+  #partner ul li.partLg {
+    background-size: 50%;
+  }
+
+  /* sub_overview */
+  #sub_overview .inner {
+    background-position: 0 10%;
+    background-size: 90%;
+  }
+
+  /* sub_colocation */
+  #sub_colocation .coloAdvantages ul li {
+    height: auto;
+    padding: 20px;
+  }
+
+  #sub_colocation .coloAdvantages ul li h5 {
+    font-size: 19px;
+  }
+
+  #sub_colocation .coloAdvantages ul li h5 span {
+    font-size: 22px;
+  }
+
+  #sub_colocation .coloAdvantages ul li p {
+    font-size: 13px;
+  }
+
+  /* sub_security */
+  #sub_security .secuDetail li {
+    width: calc((100% - 90px) / 3);
+  }
+
+  #sub_security .secuDetail li:nth-child(4) {
+    margin-right: 40px;
+  }
+
+  #sub_security .secuDetail li:nth-child(3),
+  #sub_security .secuDetail li:nth-child(6) {
+    margin-right: 0;
+  }
+
+  /* sub_website */
+  #sub_website .naulabWork figure {
+    float: left;
+    width: 35%;
+    margin-left: 40px;
+    padding-top: 80px;
+  }
+
+  /*sub_counseling*/
+  #sub_counseling .clientCompany .cliList img {
+    margin: 5px 10px -10px 0;
+  }
+
+  #sub_counseling .clientCompany .cliList input[type="text"] {
+    width: 80%;
+  }
+
+  /* footer */
+  footer .footNav ul li a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /*common*/
+  body {
+    overflow-x: hidden;
+  }
+
+  h2 {
+    font-size: 65px;
+  }
+
+  h4 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .inner {
+    width: 95%;
+  }
+
+  .mobBtn {
+    display: none;
+  }
+
+  .mobClose {
+    display: none;
+  }
+
+  .counBtn {
+    margin: 40px auto 0;
+  }
+
+  /*personalPop*/
+  #personalPop .popInner {
+    width: 90%;
+  }
+
+  /*header*/
+  header {
+    height: 130px;
+  }
+
+  header h1.logo {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  }
+
+  header nav {
+    float: none;
+    width: 100%;
+  }
+
+  header nav .gnb > li {
+    width: 14.2%;
+    padding: 15px 0;
+    margin-right: 0;
+  }
+
+  header nav .gnb > li:last-child {
+    margin-right: 0;
+  }
+
+  header nav .sub {
+    top: 55px;
+  }
+
+  header .tnb {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding-top: 0;
+  }
+
+  /* mainVisual */
+  #mainVisual .txtBox p {
+    width: 90%;
+  }
+
+  /*servicing*/
+  #servicing .inner {
+    height: 38em;
+  }
+
+  #servicing .illustArea {
+    width: 60%;
+    height: 460px;
+    padding: 40px;
+  }
+
+  #servicing .illustArea img {
+    width: 100%;
+  }
+
+  #servicing .textArea {
+    width: 85%;
+    height: 18em;
+  }
+
+  #servicing .textArea .txtBox {
+    padding: 40px;
+  }
+
+  #servicing .textArea .txtBox p {
+    width: 100%;
+  }
+
+  #servicing .textArea .txtBox a {
+    float: none;
+    width: 100%;
+    text-align: right;
+  }
+
+  /*solution*/
+  #solution ul li {
+    width: calc((100% - 20px) / 2);
+    margin-right: 20px;
+  }
+
+  #solution ul li:nth-child(1),
+  #solution ul li:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  #solution ul li:nth-child(2),
+  #solution ul li:last-child {
+    margin-right: 0;
+  }
+
+  /*counseling*/
+  #counseling {
+    padding: 100px 0;
+  }
+
+  #counseling .clientChoice {
+    width: 40%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  #counseling .clientCompany {
+    width: 54%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #counseling .clientCompany .cliList {
+    margin-bottom: 10px;
+  }
+
+  #counseling .clientCompany .cliList:last-child {
+    margin-bottom: 0;
+  }
+
+  #counseling .clientCompany .cliList img {
+    margin: 12px 10px -10px 0;
+  }
+
+  #counseling .clientCompany .cliList input[type="text"] {
+    width: 80%;
+    padding: 14px;
+  }
+
+  #counseling .clientCounsel {
+    float: none;
+    width: 100%;
+  }
+
+  #counseling .clientCounsel textarea {
+    height: 200px;
+  }
+
+  /*partner*/
+  #partner ul li.partLenovo {
+    background-size: 100%;
+  }
+
+  /*subVisual*/
+  #subVisual {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+  #subVisual .txtBox {
+    top: 55%;
+    width: 100%;
+  }
+
+  /*sub_overview*/
+  #sub_overview .inner {
+    height: 340px;
+    background-size: 110%;
+  }
+
+  #sub_overview .txtArea {
+    float: right;
+    width: 30%;
+  }
+
+  #sub_overview .txtArea h4 {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+
+  #sub_overview .txtArea h4 span {
+    font-size: 30px;
+  }
+
+  #sub_overview .txtArea p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  #sub_overview .txtArea p span {
+    font-size: 16px;
+  }
+
+  /*sub_vision*/
+  #sub_vision article figure {
+    height: 250px;
+  }
+
+  #sub_vision article .txtArea {
+    height: 250px;
+  }
+
+  /*sub_colocation*/
+  #sub_colocation article h5 {
+    font-size: 24px;
+  }
+
+  #sub_colocation article.coloProvision p {
+    word-break: keep-all;
+  }
+
+  #sub_colocation .coloKind ul li {
+    display: block;
+  }
+
+  #sub_colocation .coloKind ul li figure {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li figure img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox {
+    text-align: center;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox ul {
+    margin-bottom: 30px;
+  }
+
+  #sub_colocation .coloKind ul li table {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li .colo_proDetail {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li.coloIndividual .colo_proDetail {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li.coloSurface .colo_proDetail {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_colocation .coloAdvantages ul li {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+  }
+
+  #sub_colocation .coloAdvantages ul li:nth-child(1),
+  #sub_colocation .coloAdvantages ul li:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+  #sub_colocation .coloAdvantages ul li:nth-child(2),
+  #sub_colocation .coloAdvantages ul li:last-child {
+    margin-right: 0;
+  }
+
+  /*sub_hosting*/
+  #sub_hosting .hostIntro p {
+    word-break: keep-all;
+  }
+
+  #sub_hosting .server .serverBtn {
+    margin-right: 0;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail {
+    width: 47.9%;
+    margin: 0 30px 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(2),
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(4),
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(6) {
+    margin-right: 0;
+  }
+
+  /*sub_cloud*/
+  #sub_cloud .cloudDetail {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail figure {
+    display: none;
+  }
+
+  #sub_cloud .cloudDetail .txtArea {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail .titBox {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail .titBox h4 {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail .titBox p {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail table th {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table td.lt {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table td br {
+    display: none;
+  }
+
+  #sub_cloud .cloudLogo ul li figure {
+    width: 80%;
+  }
+
+  #sub_cloud .cloudLogo ul li h5 {
+    font-size: 20px;
+  }
+
+  /*sub_cdn*/
+  #sub_cdn article {
+    margin-bottom: 80px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro {
+    margin-bottom: 40px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro p {
+    word-break: keep-all;
+  }
+
+  #sub_cdn .cdnpro .cdnDetail {
+    margin-bottom: 40px;
+    background-size: contain;
+  }
+
+  #sub_cdn .cdnpro .cdnFeature table td {
+    padding: 15px;
+    word-break: keep-all;
+  }
+
+  /*sub_security*/
+  #sub_security .secuIntro {
+    margin-bottom: 40px;
+  }
+
+  #sub_security .secuDetail {
+    width: 100%;
+  }
+
+  #sub_security .secuDetail li {
+    width: calc((100% - 34px) / 2);
+    padding: 20px;
+    margin: 0 30px 30px 0;
+    text-align: center;
+  }
+
+  #sub_security .secuDetail li:nth-child(2),
+  #sub_security .secuDetail li:nth-child(4),
+  #sub_security .secuDetail li:nth-child(6) {
+    margin-right: 0;
+  }
+
+  #sub_security .secuDetail li h5 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  #sub_security .secuDetail li p {
+    letter-spacing: -0.03em;
+  }
+
+  /*sub_website*/
+  #sub_website article {
+    margin-bottom: 80px;
+  }
+
+  #sub_website .naulabWork figure {
+    display: none;
+  }
+
+  #sub_website .naulabWork .nauList {
+    float: left;
+    width: 100%;
+  }
+
+  #sub_website .naulabWork .nauList ul {
+    width: 30.5%;
+    height: 205px;
+    margin: 0 30px 30px 0;
+  }
+
+  #sub_website .naulabWork ul:nth-child(4),
+  #sub_website .naulabWork ul:nth-child(5),
+  #sub_website .naulabWork ul:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  #sub_website .naulabWork ul:nth-child(3),
+  #sub_website .naulabWork ul:nth-child(6) {
+    margin-right: 0;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper {
+    width: 100%;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide {
+    position: relative;
+    width: 100%;
+  }
+
+  /*sub_service*/
+  #sub_service h4 {
+    text-align: center;
+  }
+
+  #sub_service article {
+    float: none;
+    margin-bottom: 40px;
+  }
+
+  #sub_service article.serTop {
+    width: 100%;
+    height: 292px;
+  }
+
+  #sub_service article h5 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #sub_service article.serTop.serBefore {
+    margin-right: 0;
+  }
+
+  #sub_service article.serMonitor {
+    float: none;
+    margin-top: 0;
+  }
+
+  #sub_service article.serMonitor table {
+    height: 170px;
+  }
+
+  #sub_service article.serMonitor table td {
+    word-break: keep-all;
+  }
+
+  /*sub_counseling*/
+  #sub_counseling .counTit p {
+    word-break: keep-all;
+  }
+
+  #sub_counseling article h5 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  #sub_counseling .selArea {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  #sub_counseling .selArea div {
+    float: none;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    line-height: 45px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  #sub_counseling .selArea div:after {
+    display: none;
+  }
+
+  #sub_counseling .selArea div input[type="radio"] + label:before {
+    top: 15px;
+  }
+
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
+    top: 18px;
+  }
+
+  #sub_counseling .selArea label {
+    font-size: 14px;
+  }
+
+  #sub_counseling .clientCompany .cliList {
+    width: calc((100% - 30px) / 2);
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  #sub_counseling .clientCompany .cliList:last-child {
+    margin-right: 0;
+  }
+
+  #sub_counseling .clientCompany .cliList:last-child {
+    margin-bottom: 0;
+  }
+
+  #sub_counseling .clientCompany .cliList img {
+    margin: 8px 10px -10px 0;
+  }
+
+  #sub_counseling .clientCompany .cliList input[type="text"] {
+    width: 88%;
+  }
+
+  #sub_counseling .clientCounsel textarea {
+    height: 250px;
+  }
+
+  #sub_counseling .application {
+    margin-top: 10px;
+  }
+
+  /*sub_personal*/
+  #sub_personal .perTit p {
+    word-break: keep-all;
+  }
+
+  #sub_personal article p {
+    word-break: keep-all;
+  }
+
+  /*sub_use*/
+  #sub_use article p {
+    word-break: keep-all;
+  }
+
+  /*footer*/
+  footer .footMenu ul li.right {
+    margin-right: 0;
+  }
+
+  footer .footNav ul {
+    width: 25%;
+  }
+
+  /*topBtn*/
+  #topBtn {
+    bottom: 3%;
+    right: 6%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  /* common */
+  h4 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  /* servicing */
+  #servicing .illustArea {
+    height: 300px;
+  }
+
+  #servicing .illustArea img {
+    height: 100%;
+  }
+
+  #servicing .textArea {
+    width: 85%;
+  }
+
+  /* partner */
+  #partner ul li.partLenovo {
+    background-size: 70%;
+  }
+
+  #partner ul li.partDell {
+    background-size: 60%;
+  }
+
+  #partner ul li.partLg {
+    background-size: 50%;
+  }
+
+  #partner ul li h5 {
+    font-size: 20px;
+  }
+
+  /* noteArea */
+  #noteArea article .titBox h4 {
+    font-size: 24px;
+  }
+
+  #noteArea article .titBox .plus {
+    padding-top: 10px;
+  }
+
+  #noteArea .notice ul li {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  /*common*/
+  body {
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+
+  section {
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .inner {
+    width: 95%;
+  }
+
+  .counBtn {
+    margin: 40px auto 0;
+    font-size: 18px;
+  }
+
+  /*personalPop*/
+  #personalPop .popInner {
+    width: 85%;
+  }
+
+  #personalPop .popInner .perTit {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #personalPop .popInner .perTit h4 {
+    font-size: 24px;
+  }
+
+  #personalPop .popInner .perTit a {
+    margin-top: 5px;
+  }
+
+  #personalPop .popInner .perTit a span {
+    font-size: 28px;
+  }
+
+  #personalPop .popInner .popDetail {
+    height: 600px;
+  }
+
+  /*header*/
+  header {
+    height: 50px;
+    padding-top: 20px;
+  }
+
+  header h1.logo {
+    width: 120px;
+    margin-right: 0;
+  }
+
+  header h1.logo img {
+    width: 100%;
+  }
+
+  header .mobBtn {
+    float: right;
+    display: block;
+    padding-top: 3px;
+  }
+
+  header .mobBtn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  header .mobBtn a span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    float: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+
+  header nav .gnb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background: #333;
+  }
+
+  header nav .gnb .mobClose {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 0;
+  }
+
+  header nav .gnb .mobClose a {
+    float: right;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  header nav .gnb .mobClose a span {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  header nav .gnb > li {
+    position: relative;
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #555;
+    box-sizing: border-box;
+  }
+
+  header nav .gnb > li.hasSub:after {
+    content: "\e874";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-family: "Linearicons-Free";
+    font-size: 18px;
+    font-weight: 600;
+    color: #f4f4f4;
+  }
+
+  header nav .gnb > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  header nav .sub {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    display: none;
+    width: 100%;
+    padding: 0;
+    background: #666;
+    border-top: 2px solid #fff;
+    text-align: left;
+  }
+
+  header nav .sub.active {
+    display: block;
+  }
+
+  header nav .sub li {
+    padding: 15px;
+    line-height: 15px;
+  }
+
+  header nav .sub > li > a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f4f4f4;
+  }
+
+  header .tnb {
+    display: none;
+  }
+
+  header.mob_on {
+    background: rgba(9, 49, 80, 1);
+  }
+
+  /*mainVisual*/
+  #mainVisual article img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #mainVisual .txtBox p {
+    width: 90%;
+  }
+
+  /*servicing*/
+  #servicing .inner {
+    height: 42em;
+  }
+
+  #servicing h4 span {
+    font-size: 34px;
+  }
+
+  #servicing .illustArea {
+    width: 80%;
+    height: 460px;
+    padding: 30px;
+  }
+
+  #servicing .illustArea img {
+    width: 100%;
+  }
+
+  #servicing .textArea {
+    width: 95%;
+  }
+
+  #servicing .textArea .txtBox {
+    padding: 30px;
+  }
+
+  #servicing .textArea .txtBox p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  #servicing .textArea .txtBox a {
+    width: 100%;
+    text-align: right;
+  }
+
+  /*solution*/
+  #solution h5 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  #solution ul li {
+    width: calc((100% - 30px) / 2);
+    margin-right: 15px;
+  }
+
+  #solution ul li:nth-child(2),
+  #solution ul li:last-child {
+    margin-right: 0;
+  }
+
+  #solution ul li:nth-child(1),
+  #solution ul li:nth-child(2) {
+    margin-bottom: 15px;
+  }
+
+  #solution ul li a figure {
+    margin-bottom: 30px;
+  }
+
+  #solution ul li a h5 {
+    margin-bottom: 5px;
+  }
+
+  /*counseling*/
+  #counseling {
+    padding: 80px 0;
+  }
+
+  #counseling article h5 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  #counseling .clientChoice {
+    width: 47.94%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  #counseling .clientCompany {
+    width: 47%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  #counseling .clientCompany .cliList {
+    margin-bottom: 10px;
+  }
+
+  #counseling .clientCompany .cliList:last-child {
+    margin-bottom: 0;
+  }
+
+  #counseling .clientCompany .cliList img {
+    margin: 12px 10px -10px 0;
+  }
+
+  #counseling .clientCompany .cliList input[type="text"] {
+    width: 85%;
+    padding: 14px;
+  }
+
+  #counseling .clientCounsel {
+    float: none;
+    width: 100%;
+  }
+
+  #counseling .clientCounsel textarea {
+    height: 200px;
+    padding: 15px;
+  }
+
+  #counseling .application {
+    margin-top: 15px;
+  }
+
+  /*partner*/
+  #partner ul li {
+    width: 20%;
+    margin-right: 0;
+    margin-bottom: 25px;
+    background: no-repeat center 20%;
+    box-sizing: border-box;
+  }
+
+  #partner ul li.partLenovo {
+    background-size: 70%;
+  }
+
+  #partner ul li.partDell {
+    background-size: 60%;
+  }
+
+  #partner ul li.partLg {
+    background-size: 50%;
+  }
+
+  #partner ul li h5 {
+    padding-top: 60px;
+    font-size: 22px;
+  }
+
+  /*noteArea*/
+  #noteArea article {
+    float: none;
+    width: 100%;
+    height: 350px;
+  }
+
+  #noteArea article:first-child {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  /*subVisual*/
+  #subVisual {
+    height: 400px;
+  }
+
+  #subVisual .txtBox {
+    width: 100%;
+  }
+
+  #subVisual .txtBox h2 {
+    width: 100%;
+  }
+
+  /*sub_overview*/
+  #sub_overview .inner {
+    height: 540px;
+    background-position: top left;
+    background-size: 140%;
+  }
+
+  #sub_overview .txtArea {
+    float: none;
+    width: 100%;
+    padding-top: 300px;
+  }
+
+  /*sub_vision*/
+  #sub_vision article figure {
+    height: 200px;
+  }
+
+  #sub_vision article .txtArea {
+    height: 200px;
+  }
+
+  #sub_vision article .txtArea h5 {
+    font-size: 30px;
+    letter-spacing: -0.06em;
+  }
+
+  #sub_vision article .txtArea h6 {
+    font-size: 16px;
+  }
+
+  #sub_vision article .txtArea p {
+    font-size: 14px;
+    letter-spacing: -0.06em;
+  }
+
+  /*sub_colocation*/
+  #sub_colocation article h5 {
+    font-size: 24px;
+  }
+
+  #sub_colocation article.coloProvision p {
+    word-break: keep-all;
+  }
+
+  #sub_colocation .coloKind ul li table {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li .colo_proDetail {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li {
+    display: block;
+  }
+
+  #sub_colocation .coloKind ul li figure {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li figure img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox {
+    text-align: center;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox ul {
+    margin-bottom: 30px;
+  }
+
+  #sub_colocation .coloKind ul li.coloIndividual .colo_proDetail {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li.coloSurface {
+    background-position: top center;
+  }
+
+  #sub_colocation .coloKind ul li.coloSurface .colo_proDetail {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_colocation .coloAdvantages ul li {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+  }
+
+  #sub_colocation .coloAdvantages ul li:nth-child(1),
+  #sub_colocation .coloAdvantages ul li:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+  #sub_colocation .coloAdvantages ul li:nth-child(2),
+  #sub_colocation .coloAdvantages ul li:last-child {
+    margin-right: 0;
+  }
+
+  /*sub_hosting*/
+  #sub_hosting .hostIntro p {
+    word-break: keep-all;
+  }
+
+  #sub_hosting .server .serverBtn {
+    margin-right: 0;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail {
+    width: calc((100% - 30px) / 2);
+    margin: 0 30px 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(2),
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(4),
+  #sub_hosting .server .serverList .serverpro .serverDetail:nth-child(6) {
+    margin-right: 0;
+  }
+
+  /*sub_cloud*/
+  #sub_cloud .cloudDetail {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail figure {
+    display: none;
+  }
+
+  #sub_cloud .cloudDetail .txtArea {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail .titBox {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail .titBox h4 {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail .titBox p {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail table th {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table td.lt {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudLogo h5 {
+    font-size: 20px;
+  }
+
+  #sub_cloud .cloudLogo ul li {
+    width: calc((100% - 120px) / 5);
+    margin-right: 30px;
+  }
+
+  /*sub_cdn*/
+  #sub_cdn article {
+    margin-bottom: 80px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro {
+    margin-bottom: 40px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro p {
+    word-break: keep-all;
+  }
+
+  #sub_cdn .cdnpro .cdnDetail {
+    margin-bottom: 40px;
+    background-size: contain;
+  }
+
+  #sub_cdn .cdnpro .cdnFeature table td {
+    padding: 15px;
+    word-break: keep-all;
+  }
+
+  /*sub_security*/
+  #sub_security .secuIntro {
+    margin-bottom: 40px;
+  }
+
+  #sub_security .secuDetail {
+    width: 100%;
+  }
+
+  #sub_security .secuDetail li {
+    width: calc((100% - 33px) / 2);
+    padding: 20px;
+    margin: 0 30px 30px 0;
+    text-align: center;
+  }
+
+  #sub_security .secuDetail li:nth-child(2),
+  #sub_security .secuDetail li:nth-child(4),
+  #sub_security .secuDetail li:nth-child(6) {
+    margin-right: 0;
+  }
+
+  #sub_security .secuDetail li h5 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  #sub_security .secuDetail li p {
+    letter-spacing: -0.03em;
+  }
+
+  /*sub_website*/
+  #sub_website article {
+    margin-bottom: 80px;
+  }
+
+  #sub_website .naulabWork figure {
+    display: none;
+  }
+
+  #sub_website .naulabWork .nauList {
+    float: left;
+    width: 100%;
+  }
+
+  #sub_website .naulabWork .nauList ul {
+    width: calc((100% - 60px) / 3);
+    height: 250px;
+    margin: 0 30px 30px 0;
+  }
+
+  #sub_website .naulabWork ul:nth-child(4),
+  #sub_website .naulabWork ul:nth-child(5),
+  #sub_website .naulabWork ul:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  #sub_website .naulabWork ul:nth-child(3),
+  #sub_website .naulabWork ul:nth-child(6) {
+    margin-right: 0;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper {
+    width: 100%;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide {
+    position: relative;
+    width: 100%;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide figure {
+    float: left;
+    width: 55%;
+    margin-right: 30px;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt {
+    width: 41%;
+  }
+
+  /*sub_service*/
+  #sub_service h4 {
+    text-align: center;
+  }
+
+  #sub_service article {
+    float: none;
+    margin-bottom: 40px;
+  }
+
+  #sub_service article.serTop {
+    width: 100%;
+    height: 292px;
+  }
+
+  #sub_service article h5 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #sub_service article.serTop.serBefore {
+    margin-right: 0;
+  }
+
+  #sub_service article.serMonitor {
+    float: none;
+    margin-top: 0;
+  }
+
+  #sub_service article.serMonitor table {
+    height: 170px;
+  }
+
+  #sub_service article.serMonitor table td {
+    word-break: keep-all;
+  }
+
+  /*sub_counseling*/
+  #sub_counseling .counTit p {
+    word-break: keep-all;
+  }
+
+  #sub_counseling article h5 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  #sub_counseling .selArea {
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  #sub_counseling .selArea div {
+    float: none;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    line-height: 45px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  #sub_counseling .selArea div:after {
+    display: none;
+  }
+
+  #sub_counseling .selArea div input[type="radio"] + label:before {
+    top: 15px;
+  }
+
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
+    top: 18px;
+  }
+
+  #sub_counseling .selArea label {
+    font-size: 14px;
+  }
+
+  #sub_counseling .clientCompany .cliList {
+    width: calc((100% - 30px) / 2);
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  #sub_counseling .clientCompany .cliList:last-child {
+    margin-right: 0;
+  }
+
+  #sub_counseling .clientCompany .cliList:last-child {
+    margin-bottom: 0;
+  }
+
+  #sub_counseling .clientCompany .cliList img {
+    margin: 7px 6px -10px 0;
+  }
+
+  #sub_counseling .clientCompany .cliList input[type="text"] {
+    width: 87%;
+  }
+
+  #sub_counseling .clientCounsel textarea {
+    height: 250px;
+  }
+
+  #sub_counseling .application {
+    margin-top: 10px;
+  }
+
+  /*sub_personal*/
+  #sub_personal .perTit p {
+    word-break: keep-all;
+  }
+
+  #sub_personal article p {
+    word-break: keep-all;
+  }
+
+  /*sub_use*/
+  #sub_use article p {
+    word-break: keep-all;
+  }
+
+  /*footer*/
+  footer .footMenu ul li {
+    margin-right: 30px;
+  }
+
+  footer .footMenu ul li.right {
+    margin-right: 0;
+  }
+
+  footer .footNav ul {
+    width: 24.9%;
+    height: 135px;
+  }
+
+  footer .footNav ul li {
+    line-height: 25px;
+  }
+
+  footer .footCopy {
+    padding: 30px 0;
+    background: #f4f4f4;
+  }
+
+  footer .footCopy .footLogo {
+    height: 40px;
+  }
+
+  /*topBtn*/
+  #topBtn {
+    right: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  #topBtn button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /*common*/
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  section {
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  h3 {
+    width: 80%;
+    margin: 20px auto 0;
+    line-height: 23px;
+    font-size: 15px;
+    word-break: keep-all;
+  }
+
+  h4 {
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+
+  .inner {
+    width: 90%;
+  }
+
+  .counBtn {
+    width: 200px;
+    margin: 40px auto 0;
+  }
+
+  .counBtn button {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background: #139df2;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  /*personalPop*/
+  #personalPop {
+    display: none;
+  }
+
+  #personalPop .popInner {
+    width: 85%;
+  }
+
+  #personalPop .popInner .perTit {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+  }
+
+  #personalPop .popInner .perTit h4 {
+    font-size: 20px;
+  }
+
+  #personalPop .popInner .perTit a {
+    width: 26px;
+    height: 26px;
+    margin-top: 5px;
+  }
+
+  #personalPop .popInner .perTit a span {
+    font-size: 26px;
+  }
+
+  #personalPop .popInner .popDetail {
+    height: 400px;
+    padding: 0px 20px 80px;
+  }
+
+  #personalPop .popInner .popDetail p {
+    line-height: 25px;
+    font-size: 13px;
+  }
+
+  #personalPop .popInner .popDetail article h5 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    word-break: keep-all;
+  }
+
+  /*header*/
+  header {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+  }
+
+  header h1.logo {
+    width: 120px;
+    margin-right: 0;
+  }
+
+  header h1.logo img {
+    width: 100%;
+  }
+
+  header .mobBtn {
+    float: right;
+    display: block;
+    padding-top: 3px;
+  }
+
+  header .mobBtn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  header .mobBtn a span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    float: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+
+  header nav .gnb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background: #333;
+  }
+
+  header nav .gnb .mobClose {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 0;
+  }
+
+  header nav .gnb .mobClose a {
+    float: right;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  header nav .gnb .mobClose a span {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  header nav .gnb > li {
+    position: relative;
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #555;
+    box-sizing: border-box;
+  }
+
+  header nav .gnb > li.hasSub:after {
+    content: "\e874";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-family: "Linearicons-Free";
+    font-size: 18px;
+    font-weight: 600;
+    color: #f4f4f4;
+  }
+
+  header nav .gnb > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+
+  header nav .sub {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    display: none;
+    width: 100%;
+    padding: 0;
+    background: #666;
+    border-top: 2px solid #fff;
+    text-align: left;
+  }
+
+  header nav .sub.active {
+    display: block;
+  }
+
+  header nav .sub li {
+    padding: 15px;
+    line-height: 15px;
+  }
+
+  header nav .sub > li > a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f4f4f4;
+  }
+
+  header .tnb {
+    display: none;
+  }
+
+  header.mob_on {
+    background: rgba(9, 49, 80, 1);
+  }
+
+  /*mainVisual*/
+  #mainVisual {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #mainVisual article {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  #mainVisual article img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+  }
+
+  #mainVisual .txtBox {
+    top: 45%;
+    left: 50%;
+    width: 100%;
+  }
+
+  #mainVisual .txtBox p {
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #mainVisual .txtBox p span {
+    font-size: 20px;
+  }
+
+  #mainVisual .nextBtn {
+    bottom: 25%;
+  }
+
+  #mainVisual .nextBtn svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  #mainVisual .nextBtn span {
+    font-size: 18px;
+  }
+
+  /*servicing*/
+  #servicing .inner {
+    position: relative;
+    height: 42em;
+  }
+
+  #servicing h4 span {
+    font-size: 30px;
+  }
+
+  #servicing .illustArea {
+    width: 90%;
+    height: auto;
+    padding: 25px 25px 50px;
+  }
+
+  #servicing .illustArea img {
+    width: 100%;
+  }
+
+  #servicing .textArea {
+    bottom: 0;
+    width: 90%;
+    height: 240px;
+  }
+
+  #servicing .textArea .txtBox {
+    padding: 25px;
+  }
+
+  #servicing .textArea .txtBox h5 {
+    font-size: 20px;
+    word-break: keep-all;
+  }
+
+  #servicing .textArea .txtBox h5 span {
+    display: none;
+  }
+
+  #servicing .textArea .txtBox p {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: -0.08em;
+    word-break: keep-all;
+  }
+
+  #servicing .textArea .txtBox p br,
+  #servicing .textArea .txtBox p span {
+    display: none;
+  }
+
+  #servicing .textArea .txtBox p.serLastTxt {
+    padding-bottom: 20px;
+  }
+
+  #servicing .textArea .txtBox a {
+    float: none;
+    font-size: 18px;
+    text-align: right;
+  }
+
+  #servicing .swiper-button-prev,
+  #servicing .swiper-button-next {
+    top: 100%;
+    left: 0;
+    transform: translateY(-85%);
+  }
+
+  #servicing .swiper-button-prev:after,
+  #servicing .swiper-button-next:after {
+    font-size: 26px;
+  }
+
+  #servicing .swiper-button-prev {
+    left: 8%;
+  }
+
+  #servicing .swiper-button-next {
+    left: 18%;
+  }
+
+  /*solution*/
+  #solution h5 {
+    font-size: 25px;
+  }
+
+  #solution ul li {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  #solution ul li a {
+    padding: 25px;
+  }
+
+  #solution ul li a figure {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 110px;
+    margin-bottom: 0;
+    margin-right: 25px;
+  }
+
+  #solution ul li a figure img {
+    height: 100%;
+  }
+
+  #solution ul li a h5 {
+    float: left;
+    width: calc(65% - 25px);
+    margin-bottom: 5px;
+  }
+
+  #solution ul li a p {
+    float: left;
+    width: calc(65% - 25px);
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    word-break: keep-all;
+  }
+
+  #solution ul li a p br {
+    display: none;
+  }
+
+  /*counseling*/
+  #counseling {
+    padding: 80px 0;
+  }
+
+  #counseling article h5 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+
+  #counseling .clientChoice {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  #counseling .clientChoice .selArea {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+
+  #counseling .selArea div input[type="radio"] + label {
+    padding-left: 25px;
+  }
+
+  #counseling .selArea div input[type="radio"] + label:before {
+    top: 9px;
+    width: 12px;
+    height: 12px;
+  }
+
+  #counseling .selArea div input[type="radio"]:checked + label:after {
+    top: 13px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+  }
+
+  #counseling .selArea label {
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+  #counseling .clientCompany {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  #counseling .clientCompany .cliList {
+    margin-bottom: 15px;
+  }
+
+  #counseling .clientCompany .cliList img {
+    width: auto;
+    margin: 7px 10px 7px 0;
+  }
+
+  #counseling .clientCompany .cliList input[type="text"] {
+    width: 87.5%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #counseling .clientCounsel {
+    float: none;
+    width: 100%;
+  }
+
+  #counseling .clientCounsel textarea {
+    height: 200px;
+    padding: 25px;
+  }
+
+  #counseling .application {
+    float: none;
+    margin-top: 10px;
+  }
+
+  #counseling .application .appliCheck {
+    float: right;
+    padding-top: 0;
+  }
+
+  #counseling .application .appliCheck form {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  #counseling .application .appliCheck a {
+    margin-right: 0;
+    font-size: 13px;
+  }
+
+  #counseling .application {
+    text-align: center;
+  }
+
+  #counseling .application button {
+    margin: 30px auto 0;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+  }
+
+  /*partner*/
+  #partner ul li {
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 25px;
+    background: no-repeat center 20%;
+    box-sizing: border-box;
+  }
+
+  #partner ul li.partLenovo {
+    background-size: 60%;
+  }
+
+  #partner ul li.partDell {
+    background-size: 40%;
+  }
+
+  #partner ul li.partLg {
+    background-size: 40%;
+  }
+
+  #partner ul li h5 {
+    padding-top: 60px;
+    font-size: 22px;
+  }
+
+  /*noteArea*/
+  #noteArea article {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+  #noteArea article:first-child {
+    margin-right: 0;
+  }
+
+  #noteArea article .titBox h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  #noteArea article .titBox .plus {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  #noteArea .notice ul li {
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+  }
+
+  #noteArea .notice ul li a {
+    font-size: 16px;
+  }
+
+  #noteArea .notice ul li a time {
+    font-size: 13px;
+  }
+
+  #noteArea .faq {
+    margin-bottom: 0;
+  }
+
+  #noteArea .faq .titBox h4 {
+    margin-bottom: 8px;
+  }
+
+  #noteArea .faq ul {
+    border-left: 1px solid #aaa;
+  }
+
+  #noteArea .faq ul li {
+    width: 50%;
+    height: 140px;
+  }
+
+  #noteArea .faq ul li.faq01,
+  #noteArea .faq ul li.faq04 {
+    border-left: 0;
+  }
+
+  #noteArea .faq ul li a {
+    background: no-repeat center 25px;
+  }
+
+  #noteArea .faq ul li a span {
+    padding-top: 95px;
+  }
+
+  /*subVisual*/
+  #subVisual {
+    height: 250px;
+  }
+
+  #subVisual .txtBox {
+    top: 55%;
+    width: 100%;
+  }
+
+  #subVisual .txtBox h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+
+  #subVisual .txtBox h2 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 34px;
+    line-height: 35px;
+  }
+
+  #subVisual .nextBtn {
+    display: none;
+  }
+
+  /*subNav*/
+  #subNav .inner {
+    padding: 15px 0;
+  }
+
+  #subNav a {
+    font-size: 16px;
+  }
+
+  #subNav a span {
+    font-size: 15px;
+  }
+
+  /*sub_overview*/
+  #sub_overview {
+    margin-bottom: 80px;
+  }
+
+  #sub_overview .inner {
+    height: auto;
+    background: none;
+  }
+
+  #sub_overview .txtArea {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #sub_overview .txtArea h4 {
+    margin-bottom: 15px;
+  }
+
+  #sub_overview .txtArea h4 span {
+    font-size: 30px;
+  }
+
+  #sub_overview .txtArea p {
+    margin-bottom: 15px;
+    word-break: keep-all;
+    font-size: 14px;
+  }
+
+  #sub_overview .txtArea p span {
+    font-size: 15px;
+  }
+
+  /*sub_vision*/
+  #sub_vision article {
+    margin-bottom: 25px;
+  }
+
+  #sub_vision article figure {
+    float: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #sub_vision article:nth-child(3) figure {
+    float: none;
+  }
+
+  #sub_vision article figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  #sub_vision article .txtArea {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+  }
+
+  #sub_vision article.stability .txtArea {
+    text-align: right;
+  }
+
+  #sub_vision article .txtArea h5 {
+    margin-bottom: 5px;
+    font-size: 26px;
+    letter-spacing: -0.04em;
+  }
+
+  #sub_vision article .txtArea h6 {
+    font-size: 15px;
+  }
+
+  #sub_vision article .txtArea p {
+    letter-spacing: -0.1em;
+    word-break: keep-all;
+  }
+
+  #sub_vision article .txtArea p br {
+    display: none;
+  }
+
+  /*sub_colocation*/
+  #sub_colocation article {
+    margin-bottom: 80px;
+  }
+
+  #sub_colocation article:last-child {
+    margin-bottom: 0;
+  }
+
+  #sub_colocation article h4 {
+    text-align: center;
+  }
+
+  #sub_colocation article h4 span {
+    font-size: 30px;
+  }
+
+  #sub_colocation article h5 {
+    font-size: 18px;
+  }
+
+  #sub_colocation article p {
+    margin-bottom: 10px;
+    word-break: keep-all;
+  }
+
+  #sub_colocation article.coloProvision h4 {
+    margin-bottom: 15px;
+  }
+
+  #sub_colocation .coloKind ul li {
+    display: block;
+    font-size: 13px;
+  }
+
+  #sub_colocation .coloKind ul li figure {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li figure img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox {
+    text-align: center;
+  }
+
+  #sub_colocation .coloKind ul li .txtBox ul {
+    margin-bottom: 20px;
+  }
+
+  #sub_colocation .coloKind ul li table {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li table th {
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #sub_colocation .coloKind ul li table td {
+    font-size: 11px;
+  }
+
+  #sub_colocation .coloKind ul li .colo_proDetail {
+    width: 100%;
+  }
+
+  #sub_colocation .coloKind ul li.coloIndividual .colo_proDetail,
+  #sub_colocation .coloKind ul li.coloSurface .colo_proDetail {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_colocation .coloAdvantages ul li {
+    float: none;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 25px;
+    background-size: 35%;
+  }
+
+  #sub_colocation .coloAdvantages ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  #sub_colocation .coloAdvantages ul li figure {
+    height: 50%;
+  }
+
+  #sub_colocation .coloAdvantages ul li h5 {
+    font-size: 18px;
+  }
+
+  #sub_colocation .coloAdvantages ul li h5 span {
+    font-size: 22px;
+  }
+
+  /*sub_hosting*/
+  #sub_hosting .hostIntro h4 span {
+    font-size: 32px;
+  }
+
+  #sub_hosting .hostIntro p {
+    margin-bottom: 10px;
+  }
+
+  #sub_hosting .server .serverBtn {
+    margin-right: 0;
+  }
+
+  #sub_hosting .server .serverBtn li a {
+    font-size: 16px;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail {
+    float: none;
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail h6 {
+    font-size: 18px;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail table th {
+    font-size: 13px;
+  }
+
+  #sub_hosting .server .serverList .serverpro .serverDetail table td {
+    font-size: 14px;
+  }
+
+  /*sub_cloud*/
+  #sub_cloud .cloudDetail figure {
+    display: none;
+  }
+
+  #sub_cloud .cloudDetail .txtArea {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_cloud .titBox h4 {
+    text-align: center;
+  }
+
+  #sub_cloud .titBox p {
+    margin-bottom: 10px;
+    text-align: center;
+    word-break: keep-all;
+  }
+
+  #sub_cloud .cloudDetail {
+    height: auto;
+    margin-bottom: 80px;
+    background: none;
+  }
+
+  #sub_cloud .cloudDetail .titBox {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #sub_cloud .cloudDetail table {
+    width: 100%;
+  }
+
+  #sub_cloud .cloudDetail table th {
+    text-align: center;
+  }
+
+  #sub_cloud .cloudDetail table td.lt {
+    text-align: center;
+    font-size: 13px;
+    word-break: keep-all;
+  }
+
+  #sub_cloud .cloudLogo .titBox p {
+    word-break: keep-all;
+  }
+
+  #sub_cloud .cloudLogo h5 {
+    font-size: 22px;
+  }
+
+  #sub_cloud .cloudLogo ul li {
+    float: none;
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-size: 100%;
+  }
+
+  #sub_cloud .cloudLogo ul li:nth-child(even) {
+    margin-right: 0;
+  }
+
+  #sub_cloud .cloudLogo ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  #sub_cloud .cloudLogo ul li figure {
+    width: 60%;
+  }
+
+  /*sub_cdn*/
+  #sub_cdn article {
+    margin-bottom: 80px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro {
+    margin-bottom: 40px;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    word-break: keep-all;
+  }
+
+  #sub_cdn .cdnpro .cdnIntro p br {
+    display: none;
+  }
+
+  #sub_cdn .cdnpro .cdnDetail {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #sub_cdn .cdnpro .cdnFeature table th {
+    padding: 5px;
+    font-size: 13px;
+    word-break: keep-all;
+  }
+
+  #sub_cdn .cdnpro .cdnFeature table td {
+    padding: 10px;
+    font-size: 14px;
+    word-break: keep-all;
+  }
+
+  #sub_cdn .media .mediaDetail .mediaList ul li {
+    font-size: 16px;
+  }
+
+  /*sub_security*/
+  #sub_security .secuIntro {
+    margin-bottom: 80px;
+  }
+
+  #sub_security .secuIntro p {
+    font-size: 14px;
+    letter-spacing: -0.08em;
+    word-break: keep-all;
+  }
+
+  #sub_security .secuDetail li {
+    width: calc((100% - 30px) / 2);
+    padding: 20px;
+    margin: 0 20px 20px 0;
+  }
+
+  #sub_security .secuDetail li:nth-child(even) {
+    margin-right: 0;
+  }
+
+  #sub_security .secuDetail li figure {
+    height: 80px;
+  }
+
+  #sub_security .secuDetail li h5 {
+    font-size: 16px;
+  }
+
+  #sub_security .secuDetail li h5 span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #sub_security .secuDetail li p {
+    font-size: 13px;
+    letter-spacing: -0.05em;
+  }
+
+  /*sub_website*/
+  #sub_website article {
+    margin-bottom: 80px;
+  }
+
+  #sub_website article.nauIntro h4 {
+    margin-bottom: 20px;
+  }
+
+  #sub_website article.nauIntro p {
+    margin-bottom: 10px;
+    word-break: keep-all;
+  }
+
+  #sub_website article p {
+    text-align: center;
+  }
+
+  #sub_website .naulabWork figure {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    display: none;
+  }
+
+  #sub_website .naulabWork .nauList {
+    float: none;
+    width: 100%;
+  }
+
+  #sub_website .naulabWork .nauList ul {
+    float: none;
+    width: 100%;
+    height: 210px;
+    padding: 25px;
+    margin: 0 0 25px 0;
+  }
+
+  #sub_website .naulabWork ul:nth-child(4),
+  #sub_website .naulabWork ul:nth-child(5),
+  #sub_website .naulabWork ul:nth-child(6) {
+    margin-bottom: 25px;
+  }
+
+  #sub_website .naulabWork ul li.workTit {
+    font-size: 18px;
+  }
+
+  #sub_website .naulabWork ul li.workTit:before {
+    display: none;
+  }
+
+  #sub_website .nauPortfolio h4 {
+    margin-bottom: 20px;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide {
+    width: 100%;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide figure {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt {
+    position: static;
+    width: 100%;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt h5 {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt ul li {
+    margin-bottom: 10px;
+  }
+
+  #sub_website
+    .nauPortfolio
+    .swiper-wrapper
+    .swiper-slide
+    .slideTxt
+    ul
+    li
+    strong {
+    font-size: 18px;
+  }
+
+  #sub_website .nauPortfolio .swiper-wrapper .swiper-slide .slideTxt ul li p {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  /*sub_service*/
+  #sub_service article {
+    float: none;
+  }
+
+  #sub_service article.serTop {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+  #sub_service article h5 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -0.08em;
+  }
+
+  #sub_service article.serTop table {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  #sub_service article.serTop.serBefore {
+    margin-right: 0;
+  }
+
+  #sub_service article.serTop.serBefore table {
+    height: auto;
+  }
+
+  #sub_service article.serTop.serBefore table th {
+    width: 40%;
+  }
+
+  #sub_service article.serTop.serBefore table td {
+    width: 60%;
+    padding: 15px;
+  }
+
+  #sub_service article.serTop.serAfter table {
+    height: auto;
+  }
+
+  #sub_service article.serTop.serAfter table th {
+    height: 40px;
+  }
+
+  #sub_service article.serTop.serAfter table td {
+    padding: 15px;
+  }
+
+  #sub_service article.serMonitor {
+    float: none;
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  #sub_service article.serMonitor table {
+    height: auto;
+  }
+
+  #sub_service article.serMonitor table th {
+    width: 40%;
+  }
+
+  #sub_service article.serMonitor table td {
+    width: 60%;
+    padding: 15px;
+  }
+
+  /*sub_notice*/
+  #sub_notice .noticeArea ul li .noticeTit a span {
+    padding-top: 5px;
+  }
+
+  /*faq*/
+  #sub_faq .faqBtn {
+    margin-bottom: 25px;
+  }
+
+  #sub_faq .faqBtn li {
+    float: left;
+    width: 33.3333%;
+    margin-left: -1px;
+  }
+
+  #sub_faq .faqBtn li:first-child {
+    margin-left: -1px;
+  }
+
+  #sub_faq .faqBtn li:nth-child(1),
+  #sub_faq .faqBtn li:nth-child(2),
+  #sub_faq .faqBtn li:nth-child(3) {
+    border-bottom: 0;
+  }
+
+  #sub_faq .faqCon ul li .qusetionArea a span {
+    padding-top: 5px;
+  }
+
+  /*sub_counseling*/
+  #sub_counseling .counTit {
+    margin-bottom: 80px;
+  }
+
+  #sub_counseling .counTit h4 {
+    margin-bottom: 20px;
+  }
+
+  #sub_counseling .counTit p {
+    word-break: keep-all;
+    margin-bottom: 10px;
+  }
+
+  #sub_counseling article h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #sub_counseling .selArea {
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  #sub_counseling .selArea div {
+    float: none;
+    width: 100%;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  #sub_counseling .selArea div:after {
+    content: "";
+  }
+
+  #sub_counseling .selArea div:last-child:after {
+    display: none;
+  }
+
+  #sub_counseling .selArea div input[type="radio"] + label:before {
+    top: 14px;
+    width: 12px;
+    height: 12px;
+  }
+
+  #sub_counseling .selArea div input[type="radio"]:checked + label:after {
+    top: 17px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+  }
+
+  #sub_counseling .selArea label {
+    font-size: 15px;
+  }
+
+  #sub_counseling .clientCompany {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #sub_counseling .clientCompany .cliList {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  #sub_counseling .clientCompany .cliList img {
+    margin: 8px 10px -10px 0;
+  }
+
+  #sub_counseling .clientCompany .cliList input[type="text"] {
+    width: 87.9%;
+  }
+
+  #sub_counseling .clientCounsel {
+    width: 100%;
+  }
+
+  #sub_counseling .clientCounsel textarea {
+    height: 200px;
+  }
+
+  #sub_counseling .application {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  /*sub_personal*/
+  #sub_personal .perTit p {
+    margin-bottom: 10px;
+    word-break: keep-all;
+  }
+
+  #sub_personal article h5 {
+    font-size: 18px;
+  }
+
+  #sub_personal article p {
+    font-size: 13px;
+  }
+
+  #sub_personal article p b {
+    font-size: 14px;
+  }
+
+  /*sub_use*/
+  #sub_use article h5 {
+    font-size: 18px;
+  }
+
+  #sub_use article p {
+    line-height: 25px;
+    font-size: 13px;
+  }
+
+  #sub_use article p b {
+    font-size: 14px;
+  }
+
+  /*footer*/
+  footer .footMenu ul li {
+    margin-right: 25px;
+    font-size: 13px;
+  }
+
+  footer .footMenu ul li:first-child {
+    position: relative;
+  }
+
+  footer .footMenu ul li:first-child:after {
+    position: absolute;
+    top: 50%;
+    right: -12.5px;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background: #e1e1e1;
+  }
+
+  footer .footMenu ul li.right {
+    margin-right: 0;
+    color: #eee;
+  }
+
+  footer .footNav {
+    width: 100%;
+    padding: 25px 0;
+  }
+
+  footer .footNav ul {
+    float: left;
+    width: 50%;
+    height: 110px;
+  }
+
+  footer .footNav ul li {
+    line-height: 20px;
+  }
+
+  footer .footNav ul li.footNavTit {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  footer .footNav ul li a {
+    font-size: 13px;
+  }
+
+  footer .footCopy {
+    padding: 30px 0;
+  }
+
+  footer .footCopy .footLogo {
+    width: 130px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  footer .footCopy .footLogo img {
+    width: 100%;
+  }
+
+  footer .footCopy ul li {
+    margin-right: 25px;
+  }
+
+  /*topBtn*/
+  #topBtn {
+    width: 45px;
+    height: 45px;
+    z-index: 888;
+  }
+
+  #topBtn button {
+    font-size: 14px;
+  }
+
+  #topBtn button span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+  #servicing .inner {
+    height: 35em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* common */
+  section {
+    margin-bottom: 60px;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  /* servicing */
+  #servicing .inner {
+    height: 34em;
+  }
+
+  #servicing .textArea .txtBox h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  #servicing .textArea .txtBox p {
+    font-size: 13px;
+  }
+
+  #servicing .textArea .txtBox a {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  #servicing .swiper-button-prev,
+  #servicing .swiper-button-next {
+    transform: translateY(-75%);
+  }
+
+  #servicing .swiper-button-prev {
+    left: 7%;
+  }
+
+  #servicing .swiper-button-next {
+    left: 20%;
+  }
+
+  /* solution */
+  #solution h5 {
+    font-size: 20px;
+  }
+
+  #solution ul li a figure {
+    height: 100px;
+  }
+
+  #solution ul li a figure img {
+    height: 90%;
+  }
+
+  /* counseling */
+  #counseling {
+    padding: 60px 0;
+  }
+
+  #counseling .clientCompany .cliList input[type="text"] {
+    width: 80%;
+  }
+
+  /* sub_cloud */
+  #sub_cloud .cloudLogo ul li {
+    width: 100%;
+    background-size: 50%;
+  }
+
+  /* sub_security */
+  #sub_security .secuDetail li {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  /* sub_faq */
+  #sub_faq .faqBtn li {
+    width: 100%;
+  }
+
+  /* footer */
+  footer .footMenu ul li {
+    font-size: 10px;
+  }
+
+  /* topBtn */
+  #topBtn {
+    bottom: 3%;
+  }
+}

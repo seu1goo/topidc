@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar,
+::-ms-scrollbar,
+::-moz-scrollbar,
+::-o-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb,
+::-ms-scrollbar-thumb,
+::-moz-scrollbar-thumb,
+::-o-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track,
+::-ms-scrollbar-track,
+::-moz-scrollbar-track,
+::-o-scrollbar-track {
+  background: #f4f4f4;
+}
+
+::selection,
+::-webkit-selection,
+::-ms-selection,
+::-moz-selection,
+::-o-selection {
+    background: #0367a6;
+    color: #fff;
+    text-shadow: none;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    word-break: break-all;
+}
+
+table td,
+table th {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+img,
+video {
+    border: 0;
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+address,
+em,
+cite {
+    font-style: normal;
+    font-weight: normal;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+button img {
+    vertical-align: middle;
+}
+
+input[type=text] {
+    border: 1px solid #333;
+    outline: 0;
+}
+
+input[type=search]::-ms-clear,
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+textarea {
+    border: 1px solid #333;
+    outline: 0;
+}
+
+select,
+textarea,
+button,
+input {
+    font-family: 'Rajdhani', 'Noto Sans KR', sans-serif;
+}
+
+.blind {
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    height: 0;
+    text-indent: -9999px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.lt {
+    text-align: left;
+}
+
+.ct {
+    text-align: center;
+}
+
+.rt {
+    text-align: right;
+}
+
+.tableHcenter,
+.positionHcenter,
+.flexHcenter {
+    width: 100%;
+    height: 100px;
+}
+
+.tableHcenter {
+    display: table;
+}
+
+.tableHcenter div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.positionHcenter {
+    background: rgb(192, 155, 186);
+    position: relative;
+}
+
+.positionHcenter div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flexHcenter {
+    background: rgb(135, 190, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

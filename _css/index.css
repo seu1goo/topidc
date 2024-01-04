@@ -1,0 +1,1018 @@
+@charset "utf-8";
+@import url(font.css);
+
+/*common*/
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 16px "Noto Sans KR", "Rajdhani", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: #585858;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+h2 {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: -0.08em;
+  color: #fff;
+}
+
+h3 {
+  margin-top: 20px;
+  line-height: 33px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.08em;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+h4 {
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.08em;
+  color: #222;
+}
+
+h5 {
+  letter-spacing: -0.03em;
+  font-size: 22px;
+  color: #333;
+}
+
+#wrap {
+  width: 100%;
+  height: auto;
+}
+
+.inner {
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.counBtn {
+  width: 200px;
+  margin: 40px auto 0;
+}
+
+.counBtn button {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background: #139df2;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.mobBtn {
+  display: none;
+}
+
+.mobClose {
+  display: none;
+}
+
+/*personalPop*/
+#personalPop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  z-index: 9999;
+}
+
+#personalPop .popInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  background: #fff;
+}
+
+#personalPop .popInner .perTit {
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  line-height: 80px;
+  background: #ccc;
+  box-sizing: border-box;
+}
+
+#personalPop .popInner .perTit h4 {
+  float: left;
+  font-size: 26px;
+  color: #333;
+}
+
+#personalPop .popInner .perTit a {
+  float: right;
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-top: 4px;
+}
+
+#personalPop .popInner .perTit a span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#personalPop .popInner .popDetail {
+  width: 100%;
+  height: 500px;
+  padding: 20px 20px 80px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#personalPop .popInner .popDetail p {
+  line-height: 25px;
+}
+
+#personalPop .popInner .popDetail article {
+  margin-top: 30px;
+}
+
+#personalPop .popInner .popDetail article h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#personalPop .popInner .popDetail article p b {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+#personalPop .popInner .popDetail article p b:first-child {
+  margin-top: 0;
+}
+
+/*header*/
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+  transition: all 0.6s;
+}
+
+header h1.logo {
+  float: left;
+  width: 150px;
+  height: 40px;
+  margin-right: 100px;
+  color: #fff;
+}
+
+header nav {
+  float: left;
+}
+
+header nav .gnb {
+  width: 100%;
+}
+
+header nav .gnb > li {
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 17px 0 0;
+  margin-right: 50px;
+  font-family: "Rajdhani", sans-serif;
+  box-sizing: border-box;
+}
+
+header nav .gnb > li:last-child {
+  margin-right: 0;
+}
+
+header nav .gnb > li > a {
+  display: block;
+  width: 100%;
+  padding-bottom: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header nav .gnb > li:hover > a,
+header nav .gnb > li:focus > a {
+  color: #fff;
+}
+
+header nav .sub {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  width: 175px;
+  padding: 10px 30px;
+  background: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.6s;
+}
+
+header nav .sub li {
+  line-height: 40px;
+}
+
+header nav .sub > li > a {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+header nav .sub > li > a:hover,
+header nav .sub > li > a:focus {
+  text-decoration: underline;
+  color: #222;
+}
+
+header .tnb {
+  position: relative;
+  float: right;
+  padding-top: 7px;
+}
+
+header .tnb .searchArea {
+  position: relative;
+}
+
+header .tnb .searchArea input {
+  width: 200px;
+  height: 40px;
+  padding: 0 45px 0 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+header .tnb .searchArea button {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+
+header .tnb .searchArea button span {
+  color: #fff;
+}
+
+header .tnb .siteBtn {
+  float: left;
+  display: block;
+  width: 30px;
+  height: 22px;
+  padding-top: 9px;
+}
+
+header.on {
+  background: rgba(9, 49, 80, 1);
+}
+
+header.on .tnb .searchArea input {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 300;
+  color: #fff;
+}
+
+header.on nav .sub {
+  background: rgba(9, 49, 80, 1);
+}
+
+header.on nav .sub li a {
+  font-weight: 300;
+  color: #e1e1e1;
+}
+
+header.on nav .sub > li > a:hover,
+header.on nav .sub > li > a:focus {
+  font-weight: 400;
+  color: #fff;
+}
+
+/*mainVisual*/
+#mainVisual {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#mainVisual article {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#mainVisual article img {
+  height: 100%;
+}
+
+#mainVisual .txtBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#mainVisual .txtBox p {
+  width: 36%;
+  height: 45px;
+  margin: 0 auto;
+  background: #0092ff;
+  text-align: center;
+  font-size: 22px;
+  line-height: 45px;
+  color: #fff;
+}
+
+#mainVisual .txtBox p span {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+#mainVisual .nextBtn {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+#mainVisual .nextBtn .rect {
+  fill: none;
+  stroke-width: 2px;
+  stroke: white;
+  stroke-dasharray: 40;
+  stroke-dashoffset: 50%;
+  animation: movedash 1.5s forwards 0s infinite;
+  -webkit-animation: movedash 1.5s forwards 0s infinite;
+}
+
+@keyframes movedash {
+  to {
+    stroke-dashoffset: 250%;
+  }
+}
+
+@-webkit-keyframes movedash {
+  to {
+    stroke-dashoffset: 250%;
+  }
+}
+
+#mainVisual .nextBtn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+}
+
+/*servicing*/
+#servicing .inner {
+  position: relative;
+  height: 32em;
+}
+
+#servicing h4 {
+  text-align: center;
+}
+
+#servicing h4 span {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#servicing .illustArea {
+  width: 550px;
+  height: 340px;
+  padding: 20px 70px 20px 20px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#servicing .textArea {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 800px;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#servicing .textArea .txtBox {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#servicing .textArea .txtBox h5 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.08em;
+}
+
+#servicing .textArea .txtBox p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+}
+
+#servicing .textArea .txtBox p.serLastTxt {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+#servicing .textArea .txtBox a {
+  float: right;
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0092ff;
+  box-sizing: border-box;
+}
+
+#servicing .textArea .txtBox a:hover,
+#servicing .textArea .txtBox a:focus {
+  text-decoration: underline;
+}
+
+/*solution*/
+#solution h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+#solution h4 {
+  text-align: center;
+}
+
+#solution ul li {
+  float: left;
+  width: calc((100% - 60px) / 4);
+  margin-right: 20px;
+  text-align: center;
+}
+
+#solution ul li:last-child {
+  margin-right: 0;
+}
+
+#solution ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 40px 15px;
+  border: 3px solid #eee;
+  box-sizing: border-box;
+  transition: all 0.6s;
+}
+
+#solution ul li a:hover,
+#solution ul li a:focus {
+  border: 3px solid #0092ff;
+  margin-top: -15px;
+}
+
+#solution ul li a figure {
+  margin-bottom: 30px;
+}
+
+#solution ul li a h5 {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+#solution ul li a p {
+  font-size: 16px;
+  letter-spacing: -0.05em;
+}
+
+/*counseling*/
+#counseling {
+  padding: 100px 0;
+  background: #f4f4f4;
+}
+
+#counseling h4 {
+  text-align: center;
+}
+
+#counseling article h5 {
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 400;
+  color: #333;
+}
+
+#counseling .clientChoice {
+  float: left;
+  width: 18%;
+  margin-right: 40px;
+}
+
+#counseling .clientChoice .selArea {
+  width: 100%;
+  height: 225px;
+  padding: 20px;
+  background: #333;
+  box-sizing: border-box;
+}
+
+#counseling .clientChoice .selArea {
+  background: #333;
+}
+
+#counseling .selArea div {
+  position: relative;
+}
+
+#counseling .selArea div input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  overflow: hidden;
+}
+
+#counseling .selArea div input[type="radio"] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+#counseling .selArea div input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #f4f4f4;
+  border-radius: 100%;
+}
+
+#counseling .selArea div input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+#counseling .selArea label {
+  font-size: 16px;
+  line-height: 35px;
+  color: #fff;
+}
+
+#counseling .clientCompany {
+  float: left;
+  width: 33%;
+  margin-right: 40px;
+}
+
+#counseling .clientCompany .cliList {
+  margin-bottom: 10px;
+}
+
+#counseling .clientCompany .cliList:last-child {
+  margin-bottom: 0;
+}
+
+#counseling .clientCompany .cliList img {
+  margin: 10px 10px -10px 0;
+}
+
+#counseling .clientCompany .cliList input[type="text"] {
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+  outline: 0;
+  background: #fff;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+#counseling .clientCompany .cliList input[type="text"]:focus {
+  color: #222;
+}
+
+#counseling .clientCounsel {
+  float: left;
+  width: 42.8%;
+}
+
+#counseling .clientCounsel textarea {
+  width: 100%;
+  height: 227px;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  outline: 0;
+  background: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#counseling .application {
+  float: right;
+  margin-top: 20px;
+}
+
+#counseling .application .appliCheck {
+  float: left;
+  padding-top: 17px;
+}
+
+#counseling .application .appliCheck form {
+  display: inline-block;
+  font-size: 15px;
+}
+
+#counseling .application .appliCheck a {
+  margin-right: 20px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #139df2;
+}
+
+#counseling .application button {
+  width: 140px;
+  height: 40px;
+  background: #139df2;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.08em;
+  color: #fff;
+}
+
+/*partner*/
+#partner h4 {
+  text-align: center;
+}
+
+#partner ul li {
+  float: left;
+  width: calc((100% - 120px) / 7);
+  margin-right: 20px;
+  background: no-repeat center 10%;
+  box-sizing: border-box;
+}
+
+#partner ul li:last-child {
+  margin-right: 0;
+}
+
+#partner ul li.partIntel {
+  background-image: url(../_img/logo_partintel.png);
+}
+
+#partner ul li.partIbm {
+  background-image: url(../_img/logo_partibm.png);
+}
+
+#partner ul li.partHp {
+  background-image: url(../_img/logo_parthp.png);
+}
+
+#partner ul li.partLenovo {
+  background-image: url(../_img/logo_partlenovo.png);
+}
+
+#partner ul li.partDell {
+  background-image: url(../_img/logo_partdell.png);
+}
+
+#partner ul li.partKt {
+  background-image: url(../_img/logo_partkt.png);
+}
+
+#partner ul li.partLg {
+  background-image: url(../_img/logo_partlg.png);
+}
+
+#partner ul li h5 {
+  padding-top: 60px;
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/*noteArea*/
+#noteArea article {
+  float: left;
+  width: calc((100% - 40px) / 2);
+  height: 340px;
+}
+
+#noteArea article:first-child {
+  margin-right: 40px;
+}
+
+#noteArea article .titBox {
+  position: relative;
+  width: 100%;
+}
+
+#noteArea article .titBox h4 {
+  float: left;
+  margin-bottom: 13px;
+  font-size: 26px;
+}
+
+#noteArea article .titBox .plus {
+  float: right;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #093150;
+}
+
+#noteArea .notice .titBox:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #093150;
+}
+
+#noteArea .notice ul li {
+  height: 60px;
+  padding: 0 20px;
+  line-height: 60px;
+  border-bottom: 1px solid #aaa;
+  letter-spacing: -0.05em;
+  box-sizing: border-box;
+}
+
+#noteArea .notice ul li:hover,
+#noteArea .notice ul li:focus {
+  background: #f9f9f9;
+}
+
+#noteArea .notice ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+#noteArea .notice ul li a:hover,
+#noteArea .notice ul li a:focus {
+  font-weight: 500;
+  color: #093150;
+}
+
+#noteArea .notice ul li a time {
+  float: right;
+  font-size: 15px;
+  font-weight: 400;
+  color: #585858;
+}
+
+#noteArea .notice ul li a:hover time,
+#noteArea .notice ul li a:focus time {
+  text-decoration: underline;
+}
+
+#noteArea .faq .titBox h4 {
+  margin-bottom: 10.5px;
+}
+
+#noteArea .faq ul {
+  border-top: 2px solid #093150;
+}
+
+#noteArea .faq ul li {
+  position: relative;
+  float: left;
+  width: 33.3333%;
+  height: 151px;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#noteArea .faq ul li:hover,
+#noteArea .faq ul li:focus {
+  background-color: #f4f4f4;
+}
+
+#noteArea .faq ul li.faq01,
+#noteArea .faq ul li.faq04 {
+  border-left: 1px solid #aaa;
+}
+
+#noteArea .faq ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center 28px;
+}
+
+#noteArea .faq ul li.faq01 a {
+  background-image: url(../_img/ico_faq_01.png);
+}
+
+#noteArea .faq ul li.faq02 a {
+  background-image: url(../_img/ico_faq_02.png);
+}
+
+#noteArea .faq ul li.faq03 a {
+  background-image: url(../_img/ico_faq_03.png);
+}
+
+#noteArea .faq ul li.faq04 a {
+  background-image: url(../_img/ico_faq_04.png);
+}
+
+#noteArea .faq ul li.faq05 a {
+  background-image: url(../_img/ico_faq_05.png);
+}
+
+#noteArea .faq ul li.faq06 a {
+  background-image: url(../_img/ico_faq_06.png);
+}
+
+#noteArea .faq ul li a span {
+  display: inline-block;
+  padding-top: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  box-sizing: border-box;
+}
+
+#noteArea .faq ul li:hover a span,
+#noteArea .faq ul li:focus a span {
+  color: #093150;
+}
+
+/*footer*/
+footer .footMenu {
+  height: 60px;
+  background: #093150;
+}
+
+footer .footMenu ul li {
+  float: left;
+  margin-right: 40px;
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #eee;
+}
+
+footer .footMenu ul li.right {
+  float: right;
+  margin-right: 0;
+  color: #fff;
+}
+
+footer .footMenu ul li:hover,
+footer .footMenu ul li:focus {
+  color: #fff;
+}
+
+footer .footMenu ul li a {
+  display: block;
+}
+
+footer .footNav {
+  width: 100%;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+footer .footNav ul {
+  float: left;
+  width: 16.6%;
+  height: 150px;
+}
+
+footer .footNav ul li {
+  line-height: 26px;
+}
+
+footer .footNav ul li.footNavTit {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+footer .footNav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+}
+
+footer .footNav ul li a:hover,
+footer .footNav ul li a:focus {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+footer .footCopy {
+  padding: 40px 0;
+  background: #f4f4f4;
+}
+
+footer .footCopy .footLogo {
+  display: block;
+  width: 159px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+footer .footCopy ul li {
+  float: left;
+  margin-right: 20px;
+  color: #777;
+}
+
+footer .footCopy ul li span {
+  font-weight: 400;
+  color: #222;
+}
+
+footer .footCopy p.designNau {
+  color: #999;
+}
+
+/*topBtn*/
+#topBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  background: #ffa800;
+  z-index: 888;
+}
+
+#topBtn button {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#topBtn button span {
+  font-size: 15px;
+}
